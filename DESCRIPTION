@@ -1,17 +1,12 @@
 Package: ActiSleep
 Type: Package
 Title: Sleep Duration Estimate Algorithm
-Version: 0.2.0.9000
-Date: 2022-07-27
-Authors@R: c(person("Jonggyu", "Baek", role = c("aut", "cre"),
-              email = "Jonggyu.Baek@umassmed.edu"),
-            person("Margaret", "Banker", role = "aut",
-              email = "mbanker@umich.edu"),
-            person("Nathan", "Szeto", role = "aut",
-              email = "nss2@williams.edu"))
-Author: Jonggyu Baek [aut, cre], Margaret Banker [aut], Nathan Szeto [aut],
-        Alice Cleynen [aut], Guillem Rigaill [aut], Michel Koskas [aut]
-Maintainer: Margaret Banker <mbanker@umich.edu>
+Version: 0.2.1
+Date: 2022-11-17
+Author: Jonggyu Baek [aut], Margaret Banker [aut], Nathan Szeto [aut],
+        Alice Cleynen [aut], Guillem Rigaill [aut], Michel Koskas [aut],
+        Michael Kleinsasser [cre]
+Maintainer: Michael Kleinsasser <mkleinsa@umich.edu>
 Description: This package estimates sleep duration using a Pruned Dynamic
   Programming (PDP) algorithm that quickly and efficiently identifies
   changepoints. When applied to physical activity data it can identify
