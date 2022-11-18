@@ -306,7 +306,7 @@ GetEstSleepInterval_subj <- function(
     tz = "GMT")
   {
   if (is.null(datain$date)) {
-    print("ERROR: No column named date detected")
+    stop("ERROR: No column named date detected")
   }
   # Find child's diary info
   date_names <- names(table(date(datain$date)))
